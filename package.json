@@ -1,0 +1,36 @@
+{
+  "name": "test-app-jwt",
+  "version": "1.0.0",
+  "description": "generate access and refresh tokens",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nibbelsmax/test-app-jwt.git"
+  },
+  "author": "Max Yahtin <maxim.yahtin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nibbelsmax/test-app-jwt/issues"
+  },
+  "homepage": "https://github.com/nibbelsmax/test-app-jwt#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "circular-json": "^0.5.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "ipware": "^2.0.0",
+    "js-sha512": "^0.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.5",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
